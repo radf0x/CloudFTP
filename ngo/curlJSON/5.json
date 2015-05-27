@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wai Wah Commercial Centre",
+               "short_name" : "Wai Wah Commercial Centre",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "6",
+               "short_name" : "6",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Wilmer Street",
+               "short_name" : "Wilmer St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sai Wan",
+               "short_name" : "Sai Wan",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Wai Wah Commercial Centre, 6 Wilmer Street, Sai Wan, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.28745,
+                  "lng" : 114.144754
+               },
+               "southwest" : {
+                  "lat" : 22.287329,
+                  "lng" : 114.144553
+               }
+            },
+            "location" : {
+               "lat" : 22.2873829,
+               "lng" : 114.1446553
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2887384802915,
+                  "lng" : 114.1460024802915
+               },
+               "southwest" : {
+                  "lat" : 22.2860405197085,
+                  "lng" : 114.1433045197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

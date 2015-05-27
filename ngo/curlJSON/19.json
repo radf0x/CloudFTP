@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2",
+               "short_name" : "2",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Tin Kwong Road",
+               "short_name" : "Tin Kwong Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Ho Man Tin",
+               "short_name" : "Ho Man Tin",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kowloon",
+               "short_name" : "Kowloon",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "2 Tin Kwong Road, Ho Man Tin, Hong Kong",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.32173,
+               "lng" : 114.183056
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.32307898029151,
+                  "lng" : 114.1844049802915
+               },
+               "southwest" : {
+                  "lat" : 22.3203810197085,
+                  "lng" : 114.1817070197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

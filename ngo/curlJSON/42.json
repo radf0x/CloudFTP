@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Pacific Plaza",
+               "short_name" : "Pacific Plaza",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "418",
+               "short_name" : "418",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Des Voeux Road West",
+               "short_name" : "Des Voeux Rd W",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sai Wan",
+               "short_name" : "Sai Wan",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Pacific Plaza, 418 Des Voeux Road West, Sai Wan, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.286656,
+                  "lng" : 114.135904
+               },
+               "southwest" : {
+                  "lat" : 22.286408,
+                  "lng" : 114.135504
+               }
+            },
+            "location" : {
+               "lat" : 22.2865433,
+               "lng" : 114.1357141
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2878809802915,
+                  "lng" : 114.1370529802915
+               },
+               "southwest" : {
+                  "lat" : 22.2851830197085,
+                  "lng" : 114.1343550197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

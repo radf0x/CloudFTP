@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Park-in Commercial Centre",
+               "short_name" : "Park-in Commercial Centre",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "56",
+               "short_name" : "56",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Dundas Street",
+               "short_name" : "Dundas St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Mong Kok",
+               "short_name" : "Mong Kok",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kowloon",
+               "short_name" : "Kowloon",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Park-in Commercial Centre, 56 Dundas Street, Mong Kok, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.3153465,
+                  "lng" : 114.1713582
+               },
+               "southwest" : {
+                  "lat" : 22.3149144,
+                  "lng" : 114.1708598
+               }
+            },
+            "location" : {
+               "lat" : 22.3151075,
+               "lng" : 114.1712915
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3164794302915,
+                  "lng" : 114.1724579802915
+               },
+               "southwest" : {
+                  "lat" : 22.3137814697085,
+                  "lng" : 114.1697600197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

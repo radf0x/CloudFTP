@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Tai Hang Tung Estate Tung Yu House",
+               "short_name" : "Tai Hang Tung Estate Tung Yu House",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "83",
+               "short_name" : "83",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Tai Hang Tung Road",
+               "short_name" : "Tai Hang Tung Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Shek Kip Mei",
+               "short_name" : "Shek Kip Mei",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kowloon",
+               "short_name" : "Kowloon",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Tai Hang Tung Estate Tung Yu House, 83 Tai Hang Tung Road, Shek Kip Mei, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.331229,
+                  "lng" : 114.171172
+               },
+               "southwest" : {
+                  "lat" : 22.331045,
+                  "lng" : 114.170538
+               }
+            },
+            "location" : {
+               "lat" : 22.3311383,
+               "lng" : 114.1708045
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.33248598029151,
+                  "lng" : 114.1722039802915
+               },
+               "southwest" : {
+                  "lat" : 22.3297880197085,
+                  "lng" : 114.1695060197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

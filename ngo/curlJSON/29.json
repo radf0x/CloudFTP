@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Fung Mat Road",
+               "short_name" : "Fung Mat Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sai Wan",
+               "short_name" : "Sai Wan",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Fung Mat Road, Sai Wan, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.289359,
+                  "lng" : 114.139642
+               },
+               "southwest" : {
+                  "lat" : 22.2879507,
+                  "lng" : 114.1350423
+               }
+            },
+            "location" : {
+               "lat" : 22.2883463,
+               "lng" : 114.1366925
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2900038302915,
+                  "lng" : 114.139642
+               },
+               "southwest" : {
+                  "lat" : 22.28730586970849,
+                  "lng" : 114.1350423
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

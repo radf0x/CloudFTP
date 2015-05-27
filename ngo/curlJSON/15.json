@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Duke Of Windsor Social Services Building",
+               "short_name" : "Duke Of Windsor Social Services Building",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "15",
+               "short_name" : "15",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hennessy Road",
+               "short_name" : "Hennessy Road",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Wan Chai",
+               "short_name" : "Wan Chai",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Duke Of Windsor Social Services Building, 15 Hennessy Road, Wan Chai, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.278192,
+                  "lng" : 114.169725
+               },
+               "southwest" : {
+                  "lat" : 22.277848,
+                  "lng" : 114.169541
+               }
+            },
+            "location" : {
+               "lat" : 22.2779822,
+               "lng" : 114.1696201
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2793689802915,
+                  "lng" : 114.1709819802915
+               },
+               "southwest" : {
+                  "lat" : 22.2766710197085,
+                  "lng" : 114.1682840197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "St. George's Building",
+               "short_name" : "St. George's Building",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "2",
+               "short_name" : "2",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ice House Street",
+               "short_name" : "Ice House St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Central",
+               "short_name" : "Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "St. George's Building, 2 Ice House Street, Central, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.2822901,
+                  "lng" : 114.1591458
+               },
+               "southwest" : {
+                  "lat" : 22.2818161,
+                  "lng" : 114.1587968
+               }
+            },
+            "location" : {
+               "lat" : 22.2820864,
+               "lng" : 114.1590155
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2834020802915,
+                  "lng" : 114.1603202802915
+               },
+               "southwest" : {
+                  "lat" : 22.2807041197085,
+                  "lng" : 114.1576223197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

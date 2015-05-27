@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Southorn Centre",
+               "short_name" : "Southorn Centre",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "130-150",
+               "short_name" : "130-150",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hennessy Road",
+               "short_name" : "Hennessy Road",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Wan Chai",
+               "short_name" : "Wan Chai",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Southorn Centre, 130-150 Hennessy Road, Wan Chai, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.2772645,
+                  "lng" : 114.1730174
+               },
+               "southwest" : {
+                  "lat" : 22.2768764,
+                  "lng" : 114.1726811
+               }
+            },
+            "location" : {
+               "lat" : 22.277127,
+               "lng" : 114.172852
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2784194302915,
+                  "lng" : 114.1741982302915
+               },
+               "southwest" : {
+                  "lat" : 22.2757214697085,
+                  "lng" : 114.1715002697085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

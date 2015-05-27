@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Crossroads International",
+               "short_name" : "Crossroads International",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "2",
+               "short_name" : "2",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Castle Peak Road - So Kwun Wat",
+               "short_name" : "Castle Peak Rd - So Kwun Wat",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "So Kwun Wat",
+               "short_name" : "So Kwun Wat",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "New Territories",
+               "short_name" : "New Territories",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Crossroads International, 2 Castle Peak Road - So Kwun Wat, So Kwun Wat, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.374951,
+                  "lng" : 113.993301
+               },
+               "southwest" : {
+                  "lat" : 22.374706,
+                  "lng" : 113.992911
+               }
+            },
+            "location" : {
+               "lat" : 22.3748365,
+               "lng" : 113.9931416
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3761774802915,
+                  "lng" : 113.9944549802915
+               },
+               "southwest" : {
+                  "lat" : 22.3734795197085,
+                  "lng" : 113.9917570197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

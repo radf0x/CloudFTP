@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Shum Wan Road",
+               "short_name" : "Shum Wan Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Wong Chuk Hang",
+               "short_name" : "Wong Chuk Hang",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Shum Wan Road, Wong Chuk Hang, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.2460759,
+                  "lng" : 114.1678701
+               },
+               "southwest" : {
+                  "lat" : 22.2359672,
+                  "lng" : 114.163822
+               }
+            },
+            "location" : {
+               "lat" : 22.2413143,
+               "lng" : 114.1662558
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2460759,
+                  "lng" : 114.1678701
+               },
+               "southwest" : {
+                  "lat" : 22.2359672,
+                  "lng" : 114.163822
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

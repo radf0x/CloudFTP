@@ -1,0 +1,43 @@
+body {
+    position: relative;
+    /* needed for the overlay to extend when you scroll */
+}
+/* overlay styles, all needed */
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+/* just some content with arbitrary styles for explanation purposes */
+
+.modal {
+	color: #E67E22;
+    display: none;
+    /*width: 600px;
+    height: 400px;
+    line-height: 200px;*/
+   	padding: 50px 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: 25%;
+    margin-top: -100px;
+    margin-left: -150px;
+    background-color: #2c3e50;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 11;
+    /* 1px higher than the overlay layer */
+}
+
+#notifyBtn {
+	font-size: 150%;
+	color: #4f9890;
+	padding: 40px 10px;
+}

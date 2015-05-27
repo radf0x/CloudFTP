@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wang Tau Hom Estate Wang Kei House",
+               "short_name" : "Wang Tau Hom Estate Wang Kei House",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "17",
+               "short_name" : "17",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Fu Mei Street",
+               "short_name" : "Fu Mei St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Wang Tau Hom",
+               "short_name" : "Wang Tau Hom",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kowloon",
+               "short_name" : "Kowloon",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Wang Tau Hom Estate Wang Kei House, 17 Fu Mei Street, Wang Tau Hom, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.339886,
+                  "lng" : 114.189103
+               },
+               "southwest" : {
+                  "lat" : 22.339674,
+                  "lng" : 114.18844
+               }
+            },
+            "location" : {
+               "lat" : 22.3397492,
+               "lng" : 114.188755
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3411289802915,
+                  "lng" : 114.1901204802915
+               },
+               "southwest" : {
+                  "lat" : 22.3384310197085,
+                  "lng" : 114.1874225197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

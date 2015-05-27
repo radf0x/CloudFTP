@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<title>Home</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="../css/cloudmenucss/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../css/cloudmenucss/demo.css" />
+		<link rel="stylesheet" type="text/css" href="../css/cloudmenucss/component.css" />
+		<script src="../js/cloudmenujs/modernizr.custom.js"></script>
+		<!--
+		<link rel="stylesheet" type="text/css" href="../css/operationmenucss/default.css" />
+		-->
+		<link rel="stylesheet" type="text/css" href="../css/operationmenucss/component.css" />
+		<script src="../js/operationmenujs/modernizr.custom.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="../css/NameIndex_style.css" />
+		<link href="../css/uploadmain.css" rel="stylesheet" type="text/css" />
+		<link href="../css/jqueryUIDialog.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="../css/unsemantic-grid-responsive.css" />
+
+	</head>
+	<body>
+		<div class="container">
+			<ul id="gn-menu" class="gn-menu-main">
+				<li class="gn-trigger">
+					<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+					<nav class="gn-menu-wrapper">
+						<div class="gn-scroller">
+							<ul class="gn-menu">
+								<li class="gn-search-item">
+									<input placeholder="Search" type="search" class="gn-search">
+									<a class="gn-icon gn-icon-search"><span>Search</span></a>
+								</li>
+								<li>
+									<a class="gn-icon gn-icon-archive" id="folder">Folders</a>
+								</li>
+								<li>
+									<a class="gn-icon gn-icon-article" id="document">Documents</a>
+								</li>
+								<li>
+									<a class="gn-icon gn-icon-pictures" id="image">Images</a>
+								</li>
+								<li>
+									<a class="gn-icon gn-icon-videos" id="media">Media</a>
+								</li>
+								<li>
+									<a class="gn-icon gn-icon-archive" id="prog">Programmes</a>
+								</li>
+								<li>
+									<a class="gn-icon gn-icon-download" id="shared">Shared With Me</a>
+								</li>
+								<li>
+									<a class="gn-icon gn-icon-cog" id="upgrade">Upgrade</a>
+								</li>
+								<li>
+									<a class="gn-icon gn-icon-help" id="help">Help</a>
+								</li>
+
+							</ul>
+						</div>
+					</nav>
+				</li>
+				<li>
+					<a href="home.html">Home</a>
+				</li>
+				<li>
+					<a id="pageTitle" class="codrops-icon codrops-icon-drop" href="#"><span>&nbsp;</span></a>
+				</li>
+				<li>
+					<a class="codrops-icon codrops-icon-prev" href="#" style="display:none;"><span>&nbsp;</span></a>
+				</li>
+				<li>
+					<a id="op1" class="codrops-icon " href="#" style="display:none;"><span>&nbsp;</span></a>
+				</li>
+				<li>
+					<a id="op2" class="codrops-icon " href="zipDownload.php" style="display:none;"><span>&nbsp;</span></a>
+				</li>
+				<li>
+					<a id="op3" class="codrops-icon" href="#" style="display:none;"><span>&nbsp;</span>
+				</li>
+				<li>
+					<a id="op4" class="codrops-icon" href="#" style="display:none;"><span>&nbsp;</span>
+				</li>
+				<li>
+					<a class="codrops-icon " href="#"><span>&nbsp;</span></a>
+				</li>
+			</ul>
+			<header id="mainHeader" class="headerClass">
+				<div id="status">
+					<div id="loginName"></div>
+					<div id="storageStatus"></div>
+				</div>
+				<div class="grid-container">
+					<div id="file"></div>
+				</div>
+				<div id="path"></div>
+				<div id="folderlist"></div>
+				<div id="share"></div>
+				<div id="upgradeSection"></div>
+			</header>
+			<form style="display: none;" id="foldernameform">
+				<div>Folder Name:</div>
+				<input type="text" id="foldername" placeholder="Folder Name" />
+			</form>
+			<form style="display: none;" id="shareToForm">
+				<div>Share To:</div>
+				<input type="text" id="shareToName" placeholder="Tony@mycloud.com" /><br/>
+				Or share with this URL:
+				<label id="shareToURL">testing</label>
+			</form>
+			<div class="dropZone">
+			<div id="dropArea">Drop files here to upload</div>
+			<div class="info" >
+                    <div>Files left: <span id="count">0</span></div>
+                    <div style="display: none;">Destination url: <input id="url" value="upload.php" readonly="readonly"/></div>
+                    <!--<h2>Result:</h2>-->
+                    <div id="result" style="display: none">
+                    <canvas width="500" height="20" style=""></canvas>
+                	</div>
+                </div>
+            </div>
+		</div>
+		<script src="../js/cloudmenujs/classie.js"></script>
+		<script src="../js/cloudmenujs/gnmenu.js"></script>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+		<script type="text/javascript" src="../js/jquery-1.10.2.js"></script>
+		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<script type="text/javascript" src="../ui/jquery-ui.custom.js"></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="handleHome.js"></script>
+		<script src="../js/uploadscript.js"></script>
+		<script>
+			new gnMenu(document.getElementById('gn-menu'));
+		</script>
+		<script src="../js/operationmenujs/jquery.dlmenu.js"></script>
+		<script>
+			$(function() {
+				$('#dl-menu').dlmenu();
+			});
+			//or shall we do the php, not the html
+			
+			//I think is like, if it detects the file, it results 
+			$('#result').dialog({
+				draggable: false, 
+				maxHeight: 600,
+				minHeight: 300,
+				minWidth: 600,
+				autoOpen: false,
+				title: 'Upload Result',
+				position: { my: "bottom", at: "right bottom", of: window },
+				show: {effect: "clip", duration: 800}
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lockhart Centre",
+               "short_name" : "Lockhart Centre",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "301-307",
+               "short_name" : "301-307",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lockhart Road",
+               "short_name" : "Lockhart Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Wan Chai",
+               "short_name" : "Wan Chai",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Lockhart Centre, 301-307 Lockhart Road, Wan Chai, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.279047,
+                  "lng" : 114.177636
+               },
+               "southwest" : {
+                  "lat" : 22.278863,
+                  "lng" : 114.177428
+               }
+            },
+            "location" : {
+               "lat" : 22.2789369,
+               "lng" : 114.1775389
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2803039802915,
+                  "lng" : 114.1788809802915
+               },
+               "southwest" : {
+                  "lat" : 22.2776060197085,
+                  "lng" : 114.1761830197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

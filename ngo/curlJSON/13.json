@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Chung Nga Road",
+               "short_name" : "Chung Nga Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "New Territories",
+               "short_name" : "New Territories",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Chung Nga Road, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.4613311,
+                  "lng" : 114.1731483
+               },
+               "southwest" : {
+                  "lat" : 22.4561444,
+                  "lng" : 114.1697507
+               }
+            },
+            "location" : {
+               "lat" : 22.4585365,
+               "lng" : 114.1723916
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.4613311,
+                  "lng" : 114.1731483
+               },
+               "southwest" : {
+                  "lat" : 22.4561444,
+                  "lng" : 114.1697507
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

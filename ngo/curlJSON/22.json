@@ -1,0 +1,58 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "42B",
+               "short_name" : "42B",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Kennedy Road",
+               "short_name" : "Kennedy Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Mid-level",
+               "short_name" : "Mid-level",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "42B Kennedy Road, Mid-level, Hong Kong",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.276416,
+               "lng" : 114.162577
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2777649802915,
+                  "lng" : 114.1639259802915
+               },
+               "southwest" : {
+                  "lat" : 22.2750670197085,
+                  "lng" : 114.1612280197085
+               }
+            }
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

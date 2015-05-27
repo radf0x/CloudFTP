@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Victoria Centre Block 1",
+               "short_name" : "Victoria Centre Block 1",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "15",
+               "short_name" : "15",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Watson Road",
+               "short_name" : "Watson Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Causeway Bay",
+               "short_name" : "Causeway Bay",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Victoria Centre Block 1, 15 Watson Road, Causeway Bay, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.287622,
+                  "lng" : 114.190338
+               },
+               "southwest" : {
+                  "lat" : 22.287268,
+                  "lng" : 114.189926
+               }
+            },
+            "location" : {
+               "lat" : 22.2873912,
+               "lng" : 114.1901483
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2887939802915,
+                  "lng" : 114.1914809802915
+               },
+               "southwest" : {
+                  "lat" : 22.2860960197085,
+                  "lng" : 114.1887830197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

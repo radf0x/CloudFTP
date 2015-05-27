@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Yau Tong Industrial City Block A",
+               "short_name" : "Yau Tong Industrial City Block A",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "17",
+               "short_name" : "17",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ko Fai Road",
+               "short_name" : "Ko Fai Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Yau Tong",
+               "short_name" : "Yau Tong",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kowloon",
+               "short_name" : "Kowloon",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Yau Tong Industrial City Block A, 17 Ko Fai Road, Yau Tong, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.295613,
+                  "lng" : 114.235521
+               },
+               "southwest" : {
+                  "lat" : 22.294949,
+                  "lng" : 114.234391
+               }
+            },
+            "location" : {
+               "lat" : 22.2953053,
+               "lng" : 114.2350097
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2966299802915,
+                  "lng" : 114.2363049802915
+               },
+               "southwest" : {
+                  "lat" : 22.2939320197085,
+                  "lng" : 114.2336070197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sai Ying Pun Community Complex",
+               "short_name" : "Sai Ying Pun Community Complex",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "2",
+               "short_name" : "2",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "High Street",
+               "short_name" : "High St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sai Wan",
+               "short_name" : "Sai Wan",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sai Ying Pun Community Complex, 2 High Street, Sai Wan, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.285055,
+                  "lng" : 114.144523
+               },
+               "southwest" : {
+                  "lat" : 22.28476,
+                  "lng" : 114.143658
+               }
+            },
+            "location" : {
+               "lat" : 22.2848797,
+               "lng" : 114.1440747
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.28625648029151,
+                  "lng" : 114.1454394802915
+               },
+               "southwest" : {
+                  "lat" : 22.2835585197085,
+                  "lng" : 114.1427415197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

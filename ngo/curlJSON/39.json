@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sea View Estate Block A",
+               "short_name" : "Sea View Estate Block A",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "2",
+               "short_name" : "2",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Watson Road",
+               "short_name" : "Watson Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "North Point",
+               "short_name" : "North Point",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sea View Estate Block A, 2 Watson Road, North Point, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.287399,
+                  "lng" : 114.1916
+               },
+               "southwest" : {
+                  "lat" : 22.286913,
+                  "lng" : 114.191065
+               }
+            },
+            "location" : {
+               "lat" : 22.2872008,
+               "lng" : 114.1913558
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2885049802915,
+                  "lng" : 114.1926814802915
+               },
+               "southwest" : {
+                  "lat" : 22.2858070197085,
+                  "lng" : 114.1899835197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

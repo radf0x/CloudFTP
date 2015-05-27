@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "New World Tower",
+               "short_name" : "New World Tower",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "16-18",
+               "short_name" : "16-18",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Queen's Road Central",
+               "short_name" : "Queen's Road Central",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Central",
+               "short_name" : "Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "New World Tower, 16-18 Queen's Road Central, Central, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.2807896,
+                  "lng" : 114.1572953
+               },
+               "southwest" : {
+                  "lat" : 22.2805494,
+                  "lng" : 114.1570369
+               }
+            },
+            "location" : {
+               "lat" : 22.2806644,
+               "lng" : 114.1571495
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2820184802915,
+                  "lng" : 114.1585150802915
+               },
+               "southwest" : {
+                  "lat" : 22.2793205197085,
+                  "lng" : 114.1558171197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

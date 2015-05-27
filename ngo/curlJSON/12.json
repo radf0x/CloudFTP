@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "7",
+               "short_name" : "7",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Castle Peak Road (Kwu Tung)",
+               "short_name" : "Castle Peak Rd (Kwu Tung)",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Kwu Tung",
+               "short_name" : "Kwu Tung",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "New Territories",
+               "short_name" : "New Territories",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "7 Castle Peak Road (Kwu Tung), Kwu Tung, Hong Kong",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.504118,
+               "lng" : 114.100806
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.5054669802915,
+                  "lng" : 114.1021549802915
+               },
+               "southwest" : {
+                  "lat" : 22.5027690197085,
+                  "lng" : 114.0994570197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,69 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2406",
+               "short_name" : "2406",
+               "types" : [ "subpremise" ]
+            },
+            {
+               "long_name" : "9",
+               "short_name" : "9",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Queen's Road Central",
+               "short_name" : "Queen's Road Central",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Central",
+               "short_name" : "Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "2406, 9 Queen's Road Central, Central, Hong Kong",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.2801875,
+               "lng" : 114.1583199
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2815364802915,
+                  "lng" : 114.1596688802915
+               },
+               "southwest" : {
+                  "lat" : 22.2788385197085,
+                  "lng" : 114.1569709197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "subpremise" ]
+      }
+   ],
+   "status" : "OK"
+}

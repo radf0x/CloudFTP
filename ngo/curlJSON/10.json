@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sun House",
+               "short_name" : "Sun House",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "181",
+               "short_name" : "181",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Des Voeux Road Central",
+               "short_name" : "Des Voeux Rd C",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sheung Wan",
+               "short_name" : "Sheung Wan",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sun House, 181 Des Voeux Road Central, Sheung Wan, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.286322,
+                  "lng" : 114.154266
+               },
+               "southwest" : {
+                  "lat" : 22.285934,
+                  "lng" : 114.153953
+               }
+            },
+            "location" : {
+               "lat" : 22.2861174,
+               "lng" : 114.1540841
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2874769802915,
+                  "lng" : 114.1554584802915
+               },
+               "southwest" : {
+                  "lat" : 22.28477901970849,
+                  "lng" : 114.1527605197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

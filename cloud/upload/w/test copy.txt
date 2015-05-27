@@ -1,0 +1,23 @@
+let me think 
+gh
+ahhhh
+ahh
+ahh
+you mean use button ?
+no
+
+
+use a form to 包 the download button or the file list?
+
+can you think this way
+
+
+
+<form ac
+[Download]  < the codrop button, see it as a form submit button, 
+    ^ formsubmit
+
+[tick] << items
+[tick]
+
+I have to leave ok 8 hey send me the files

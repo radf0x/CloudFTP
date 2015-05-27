@@ -1,0 +1,58 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "485",
+               "short_name" : "485",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Kwun Tong Road",
+               "short_name" : "Kwun Tong Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Kwun Tong North",
+               "short_name" : "Kwun Tong North",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kowloon",
+               "short_name" : "Kowloon",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "485 Kwun Tong Road, Kwun Tong North, Hong Kong",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.311493,
+               "lng" : 114.228181
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3128419802915,
+                  "lng" : 114.2295299802915
+               },
+               "southwest" : {
+                  "lat" : 22.3101440197085,
+                  "lng" : 114.2268320197085
+               }
+            }
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

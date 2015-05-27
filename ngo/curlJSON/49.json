@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Wheelock House",
+               "short_name" : "Wheelock House",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "20",
+               "short_name" : "20",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Pedder Street",
+               "short_name" : "Pedder Street",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Central",
+               "short_name" : "Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Wheelock House, 20 Pedder Street, Central, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.282216,
+                  "lng" : 114.157599
+               },
+               "southwest" : {
+                  "lat" : 22.28176,
+                  "lng" : 114.157073
+               }
+            },
+            "location" : {
+               "lat" : 22.282005,
+               "lng" : 114.1573585
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2833369802915,
+                  "lng" : 114.1586849802915
+               },
+               "southwest" : {
+                  "lat" : 22.2806390197085,
+                  "lng" : 114.1559870197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

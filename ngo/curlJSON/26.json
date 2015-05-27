@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Cameron Commercial Centre",
+               "short_name" : "Cameron Commercial Centre",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "458-468",
+               "short_name" : "458-468",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hennessy Road",
+               "short_name" : "Hennessy Road",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Causeway Bay",
+               "short_name" : "Causeway Bay",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Cameron Commercial Centre, 458-468 Hennessy Road, Causeway Bay, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.279607,
+                  "lng" : 114.182309
+               },
+               "southwest" : {
+                  "lat" : 22.279394,
+                  "lng" : 114.182016
+               }
+            },
+            "location" : {
+               "lat" : 22.2795133,
+               "lng" : 114.1821833
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2808494802915,
+                  "lng" : 114.1835114802915
+               },
+               "southwest" : {
+                  "lat" : 22.27815151970849,
+                  "lng" : 114.1808135197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

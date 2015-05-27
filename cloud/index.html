@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<title>Login</title>
+	</head>
+	<body bgcolor="#DCDCDC">
+		<div id="ngo" align="center">
+			<h1>NGOs Directory</h1>
+		</div>
+		<div id="transp">
+			<div id="login" align="center">
+				<div id="loginSection">
+					<h1> Login</h1>
+					<p>
+						<input id="oldUserName" type="text" placeholder="Login">
+						<br />
+						<input id="oldPwd" type="password" placeholder="Password">
+						<br />
+					<p></p>
+					<input type="submit"  class="mybutton" id="oldMember-submit" value="Login" align="right">
+					</p>
+				</div>
+				<div id="joinSection">
+					<h1>Create New Account</h1>
+					<p>
+						Plan
+						<input type="radio" name="role" value="premium">
+						Premium
+						<input type="radio" name="role" value="regular" checked>
+						Regular
+						<br />
+						<input id="userName" type="text" placeholder="UserID">
+						<br />
+						<input id="pwd" type="password" placeholder="Password">
+						<br />
+						<input id="fullname" type="text" placeholder="Fullname">
+						<br />
+						<input id="phone" type="text" placeholder="Phone">
+						<br />
+						<textarea id="address"cols="25" rows="4" placeholder="Address"></textarea>
+						<br />
+					<p></p>
+					<input type="submit" class="mybutton" id="newMember-submit" value="Join" align="left">
+					<p></p>
+					<br />
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<script src="../js/jquery-1.10.2.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../js/jquery-ui-1.10.4.custom.min.js"></script>
+		<script src="refresh.js"></script>
+	</body>
+</html>

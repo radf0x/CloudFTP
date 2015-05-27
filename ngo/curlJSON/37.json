@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Standard Chartered Bank - Sai Ying Pun",
+               "short_name" : "Standard Chartered Bank - Sai Ying Pun",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "102-106",
+               "short_name" : "102-106",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Queen's Road West",
+               "short_name" : "Queen's Rd W",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sai Wan",
+               "short_name" : "Sai Wan",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Standard Chartered Bank - Sai Ying Pun, 102-106 Queen's Road West, Sai Wan, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.286147,
+                  "lng" : 114.146276
+               },
+               "southwest" : {
+                  "lat" : 22.286043,
+                  "lng" : 114.146115
+               }
+            },
+            "location" : {
+               "lat" : 22.2860953,
+               "lng" : 114.1461881
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2874439802915,
+                  "lng" : 114.1475444802915
+               },
+               "southwest" : {
+                  "lat" : 22.2847460197085,
+                  "lng" : 114.1448465197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "131",
+               "short_name" : "131",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Pok Fu Lam Road",
+               "short_name" : "Pok Fu Lam Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Pok Fu Lam",
+               "short_name" : "Pok Fu Lam",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "131 Pok Fu Lam Road, Pok Fu Lam, Hong Kong",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.267474,
+               "lng" : 114.131629
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2688229802915,
+                  "lng" : 114.1329779802915
+               },
+               "southwest" : {
+                  "lat" : 22.2661250197085,
+                  "lng" : 114.1302800197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

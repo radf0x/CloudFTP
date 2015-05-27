@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Home</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/uisearch/default.css" />
+		<link rel="stylesheet" type="text/css" href="../css/uisearch/component.css" />
+		<link rel="stylesheet" type="text/css" href="../css/menucss/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../css/menucss/demo.css" />
+		<link rel="stylesheet" type="text/css" href="../css/menucss/icons.css" />
+		<link rel="stylesheet" type="text/css" href="../css/menucss/style3.css" />
+		<link rel="stylesheet" type="text/css" href="../css/nlpformcss/default.css" />
+		<link rel="stylesheet" type="text/css" href="../css/nlpformcss/component.css" />
+		<link rel="stylesheet" type="text/css" href="../css/unsemantic-grid-responsive.css" />
+		<script src="../js/uisearch/modernizr.custom.js"></script>
+		<script src="../js/menujs/modernizr.custom.js"></script>
+		<script src="../js/nlpformjs/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="column">
+				<div id="sb-search" class="sb-search">
+					<form action="result.html" method="action">
+						<input class="sb-search-input" placeholder="Enter your search term..." type="text" value="" name="search" id="search">
+						<input class="sb-search-submit" type="submit" value="" id="search-submit">
+						<span class="sb-icon-search"></span>
+					</form>
+				</div>
+			</div>
+			<div class="main clearfix">
+				<div id="nl-form" class="nl-form">
+					I'm not sure of there is any NGO in
+					<select id="location">
+						<option value="Any place" selected>any place</option>
+						<option value="Kowloon">Kowloon</option>
+						<option value="HK Island">HK Island</option>
+						<option value="Aberdeen">Aberdeen</option>
+						<option value="Wanchai">Wanchai</option>
+						<option value="Central">Central</option>
+						<option value="Sheung Wan">Sheung Wan</option>
+						<option value="Tuen Mun">Tuen Mun</option>
+						<option value="Pok Fu Lam">Pok Fu Lam</option>
+						<option value="Yau Tong">Yau Tong</option>
+						<option value="Tai Hang Tung">Tai Hang Tung</option>
+						<option value="New Territories">New Territories</option>
+						<option value="Kwun Tong">Kwun Tong</option>
+						<option value="Ho Man Tin">Ho Man Tin</option>
+						<option value="Sai Wan">Sai Wan</option>
+						<option value="Sai Ying Pun">Sai Ying Pun</option>
+						<option value="North Point">North Point</option>
+						<option value="Causeway Bay">Causeway Bay</option>
+						<option value="Lantau Island">Lantau Island</option>
+						<option value="Mong Kok">Mong Kok</option>
+					</select>
+					district.
+					<br />
+					<div class="nl-submit-wrap">
+						<button id="nl-submit-btn" class="nl-submit" type="submit">
+							Find
+						</button>
+					</div>
+					<div class="nl-overlay"></div>
+				</div>
+			</div>
+
+			<nav id="bt-menu" class="bt-menu">
+				<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+				<ul>
+					<li>
+						<a href="home.html" class="bt-icon icon-user-outline">Home</a>
+					</li>
+					<li>
+						<a href="timeLine.html" class="bt-icon icon-sun">Time</a>
+					</li>
+					<li>
+						<a href="NameIndex.html" class="bt-icon icon-windows">Index</a>
+					</li>
+					<li>
+						<a href="showMap.html" class="bt-icon icon-bubble">Map</a>
+					</li>
+					<li>
+						<a href="siteMap.html" class="bt-icon icon-star">Site Map</a>
+					</li>
+					<li>
+						<a href="contact.html" class="bt-icon icon-speaker">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div><!-- /container -->
+		<script src="../js/uisearch/classie.js"></script>
+		<script src="../js/uisearch/uisearch.js"></script>
+		<script src="../js/menujs/classie.js"></script>
+		<script src="../js/menujs/borderMenu.js"></script>
+		<script src="../js/nlpformjs/nlform.js"></script>
+		
+		<script src="../js/jquery-1.10.2.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../js/jquery-ui-1.10.4.custom.min.js"></script>
+		
+		<script src="processSearch.js"></script>
+		<script>
+			new UISearch(document.getElementById('sb-search'));
+			var nlform = new NLForm(document.getElementById('nl-form'));
+		</script>
+	</body>
+</html>

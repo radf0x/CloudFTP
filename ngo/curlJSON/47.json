@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Mui Wo",
+               "short_name" : "Mui Wo",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Islands District",
+               "short_name" : "Islands District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "New Territories",
+               "short_name" : "New Territories",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Mui Wo, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.281891,
+                  "lng" : 114.023494
+               },
+               "southwest" : {
+                  "lat" : 22.249265,
+                  "lng" : 113.987742
+               }
+            },
+            "location" : {
+               "lat" : 22.260484,
+               "lng" : 113.9982525
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.281891,
+                  "lng" : 114.023494
+               },
+               "southwest" : {
+                  "lat" : 22.249265,
+                  "lng" : 113.987742
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "neighborhood", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

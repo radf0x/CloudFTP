@@ -1,0 +1,113 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "102",
+               "short_name" : "102",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "First Street",
+               "short_name" : "First St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sai Wan",
+               "short_name" : "Sai Wan",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "102 First Street, Sai Wan, Hong Kong",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.286463,
+               "lng" : 114.140637
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2878119802915,
+                  "lng" : 114.1419859802915
+               },
+               "southwest" : {
+                  "lat" : 22.28511401970849,
+                  "lng" : 114.1392880197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "5",
+               "short_name" : "5",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "First Street",
+               "short_name" : "First St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sai Wan",
+               "short_name" : "Sai Wan",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "5 First Street, Sai Wan, Hong Kong",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.286581,
+               "lng" : 114.143372
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2879299802915,
+                  "lng" : 114.1447209802915
+               },
+               "southwest" : {
+                  "lat" : 22.28523201970849,
+                  "lng" : 114.1420230197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

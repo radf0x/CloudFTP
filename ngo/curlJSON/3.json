@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "The Centrium",
+               "short_name" : "The Centrium",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "60",
+               "short_name" : "60",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Wyndham Street",
+               "short_name" : "Wyndham St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Central",
+               "short_name" : "Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "The Centrium, 60 Wyndham Street, Central, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.280964,
+                  "lng" : 114.154839
+               },
+               "southwest" : {
+                  "lat" : 22.280407,
+                  "lng" : 114.154488
+               }
+            },
+            "location" : {
+               "lat" : 22.2806848,
+               "lng" : 114.1546646
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2820344802915,
+                  "lng" : 114.1560124802915
+               },
+               "southwest" : {
+                  "lat" : 22.2793365197085,
+                  "lng" : 114.1533145197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

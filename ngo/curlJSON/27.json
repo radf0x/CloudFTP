@@ -1,0 +1,58 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "66",
+               "short_name" : "66",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Leighton Road",
+               "short_name" : "Leighton Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Happy Valley",
+               "short_name" : "Happy Valley",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong Island",
+               "short_name" : "Hong Kong Island",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "66 Leighton Road, Happy Valley, Hong Kong",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.27675,
+               "lng" : 114.184661
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.2780989802915,
+                  "lng" : 114.1860099802915
+               },
+               "southwest" : {
+                  "lat" : 22.2754010197085,
+                  "lng" : 114.1833120197085
+               }
+            }
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

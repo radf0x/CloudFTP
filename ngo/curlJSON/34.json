@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Break Through Centre",
+               "short_name" : "Break Through Centre",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "191",
+               "short_name" : "191",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Woosung Street",
+               "short_name" : "Woosung St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Jordan",
+               "short_name" : "Jordan",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "Hong Kong",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kowloon",
+               "short_name" : "Kowloon",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Hong Kong",
+               "short_name" : "HK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Break Through Centre, 191 Woosung Street, Jordan, Hong Kong",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.303628,
+                  "lng" : 114.170131
+               },
+               "southwest" : {
+                  "lat" : 22.303461,
+                  "lng" : 114.169964
+               }
+            },
+            "location" : {
+               "lat" : 22.3035269,
+               "lng" : 114.1700614
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.3048934802915,
+                  "lng" : 114.1713964802915
+               },
+               "southwest" : {
+                  "lat" : 22.3021955197085,
+                  "lng" : 114.1686985197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}
